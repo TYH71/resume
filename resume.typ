@@ -3,8 +3,10 @@
 #let cvdata = yaml("template.yml")
 
 #let uservars = (
-    headingfont: "Linux Libertine",
-    bodyfont: "Linux Libertine",
+    // headingfont: "Linux Libertine",
+    // bodyfont: "Linux Libertine",
+    headingfont: "DejaVu Sans Mono",
+    bodyfont: "DejaVu Sans Mono", 
     fontsize: 10pt, // 10pt, 11pt, 12pt
     linespacing: 6pt,
     sectionspacing: 0pt,
@@ -25,7 +27,7 @@
 #let customrules(doc) = {
     // add custom document style rules here
     set page(
-        paper: "us-letter", // a4, us-letter
+        paper: "a4", // a4, us-letter
         numbering: "1 / 1",
         number-align: center, // left, center, right
         margin: 1.25cm, // 1.25cm, 1.87cm, 2.5cm

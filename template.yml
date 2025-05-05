@@ -4,7 +4,7 @@ personal:
   name: Tan Yu Hoe
   email: yuhoetan@gmail.com
   phone: (+65) 9664 0566
-  url: https://johndoe.com
+  url:
   titles:
     - AI Engineer
     - Data Scientist
@@ -16,19 +16,29 @@ personal:
       username: Tan Yu Hoe
       url: https://www.linkedin.com/in/yu-hoe-tan/
     - network: GitHub
-      username: johndoe
-      url: https://github.com/johndoe
+      username: tyh71
+      url: https://github.com/tyh71
 
 work:
+  # - organization: SAF Detention Barracks
+  #   url:
+  #   location: Singapore
+  #   positions:
+  #     - position: Detention Military Police
+  #       startDate: 2024-02-01
+  #       endDate: 2025-08-01
+  #       highlights:
+  #       - Mandatory National Service
+  #       - 
   - organization: GovTech Singapore
     url: https://www.tech.gov.sg/
     location: Singapore
     positions:
       - position: AI Engineer Intern
         startDate: 2022-04-01
-        endDate: "2023-06-30"
+        endDate: 2023-06-30
         highlights:
-          - Video Analytics Team, Data Science and Artificial Intelligence Division
+          - work
 
 education:
   - institution: Singapore Polytechnic
