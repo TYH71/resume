@@ -32,10 +32,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Compile Typst Files
-        uses: ammar-ahmed22/compile-typst-action@v1
+        uses: lvignoli/typst-action@main
         with:
-          source_paths: "resume.typ"
-          output_paths: "resume.pdf"
+          source_file: resume.typ
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload GH pages artifact
