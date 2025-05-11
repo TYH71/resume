@@ -1,5 +1,17 @@
 {
 	"name": "Typst Devcontainer",
 	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
-	"postCreateCommand": "cargo install --locked typst-cli" // install typst-cli via cargo
+	"postCreateCommand": "cargo install --locked typst-cli", // install typst-cli via cargo
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"myriad-dreamin.tinymist"
+			],
+			"settings": {
+				"[typst]": {
+					"editor.formatOnSave": true
+				}
+			}
+		}
+	}
 }
