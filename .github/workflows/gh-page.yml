@@ -32,9 +32,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Compile Typst Files
-        uses: lvignoli/typst-action@main
-        with:
-          source_file: resume.typ
+        run: |
+          docker run --rm -i \
+            --volume ${{ github.workspace }}:/mnt \
+            --workdir "/mnt" \
+            "ghcr.io/typst/typst:latest" \
+            typst \
+            compile \
+            resume.typ resume.pdf
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload GH pages artifact
