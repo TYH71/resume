@@ -37,7 +37,7 @@ education:
     url: https://www.sp.edu.sg/courses/schools/soc/applied-ai-analytics
     area: Applied AI and Analytics
     studyType: Diploma
-    startDate: 2017-08-01
+    startDate: 2020-04-01
     endDate: 2023-05-01
     location: Singapore
     honors:
@@ -46,13 +46,13 @@ education:
       - Staistics, Python for Data Analyitcs, AI & Machine Learning, Deep Learning
     highlights:
       - "*CCA Grade*: Gold with Honours"
-      - Distinction in ST0503 Back-End Web Development, ST1511 AI and Machhine Leanring, ST1504 Deep Learning, and ST3004 Infocomm Professional Seminar
+      - "*Distinctions*: ST0503 Back-End Web Development, ST1511 AI and Machhine Leanring, ST1504 Deep Learning, ST3004 Infocomm Professional Seminar"
 
 affiliations:
   - organization: SP Artificial Intelligence Student Chapter
     position: Operations Head
     location: Singapore
-    url:
+    url: https://www.instagram.com/spai.sp/
     startDate: 2020-12-01
     endDate: 2022-03-30
     highlights:
@@ -84,7 +84,7 @@ awards:
     - title: NUS LifeHack 2023 - First Place + sgID Award
       date: 2023-06-01
       issuer: NUS Computing Club
-      url:
+      url: https://www.linkedin.com/feed/update/urn:li:activity:7069922825238654976/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADES2HYB5CVCvDNOz_KETBi13cGSATaabFs
       location: Singapore
       highlights: 
         # - "Won first place and sgID Award (bonus) by Open Government Products"
@@ -107,21 +107,26 @@ awards:
   #     - "Served as the speaker and presented in the 60-second pitch round of the Opening Reception of the SCG Bangkok Business Challenge #sym.at Sasin 2022 for Team London Bridge."
 
 certificates:
-  # - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
-  #   date: 2021-09-01
-  #   issuer: Coursera
-  #   url: https://example.com
-  #   id: "1MPR3CVR3SUM3"
-    - name: "Google Data Analytics"
-      date: 2023-04-16
-      issuer: Cousera
-      url: https://www.coursera.org/account/accomplishments/specialization/certificate/5D46PZTLVV9Q
-      id: "5D46PZTLVV9Q"
-    - name: "Google IT Automation with Python"
-      date: 2023-01-09
-      issuer: Coursera
-      url: https://www.coursera.org/account/accomplishments/specialization/certificate/878DAB3LU5FY
-      id: "878DAB3LU5FY"
+  - name: "Google Data Analytics"
+    date: 2023-04-16
+    issuer: Cousera
+    url: https://www.coursera.org/account/accomplishments/specialization/certificate/5D46PZTLVV9Q
+    id: "5D46PZTLVV9Q"
+  - name: "Google IT Automation with Python"
+    date: 2023-01-09
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/specialization/certificate/878DAB3LU5FY
+    id: "878DAB3LU5FY"
+  - name: NVIDIA - Fundamentals of Deep Learning
+    date: 2022-02-22
+    issuer: NVIDIA
+    url: https://learn.nvidia.com/certificates?id=16ae4f9f8cbd424aae1128c622c701d7
+    id: "l-emxFVgQeCHCjNv8HtyXg"
+  - name: AI FOR INDUSTRY® - Foundations in AI
+    date: 2022-02-14
+    issuer: AI Singapore
+    url: https://certified.aisingapore.org/6ff65f66-87aa-427e-aa79-9c255571863d#acc.8NLE9n7t
+    id: "46333377"
 
 publications:
 #   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
@@ -130,15 +135,15 @@ publications:
 #     url: https://example.com
 
 projects:
-#   - name: "Job Tailor"
-#     url: https://example.com/
-#     affiliation: Open University
-#     startDate: 2020-11-01
-#     endDate: 2021-04-30
-#     highlights:
-#       - Developed an AI-powered résumé editor app to create tailored résumés from users' CVs based on specific job descriptions.
-#       - Acquired more than 100,000 user sign ups in 3 months and more than 10,000 active monthly users.
-#       - Generated profit of upwards \$20,000 yearly with a team of only four developers and three business operatives
+  - name: "Meals with Wheels"
+    url: https://www.touch.org.sg/
+    affiliation: Volunteer Lead
+    startDate: 2022-08-01
+    endDate: 2022-10-01
+    highlights:
+      - Liaising between Singapore Polytechnic and TOUCH Community Services
+      - Developing and implementing logistical plans for meal delivery routes
+      - Prioritizing the safety of volunteers and elderly recipients, strictly adhering to COVID-19 (Temporary Measures) Regulations 2022
 
 skills:
   - category: Programming
