@@ -56,7 +56,9 @@ affiliations:
     startDate: 2020-12-01
     endDate: 2022-03-30
     highlights:
-      - kmkm
+      - Led a project team that developed a headline-based fake news detection application for showcase in Singapore Polytechnic's Open House and Engineering Show 2022
+      - Hosted a Kaggle In-Class competition aimed to provide opportunities for members to hone their expertise through a curated dataset with real-world application
+      - Curated teaching materials and taught concepts on Data Science workflows and Machine Learning concepts for two data-science-related workshops
   # - organization: White Hat Hackers Association
   #   position: Vice President for Internal Affairs
   #   location: Cambridge, United Kingdom
@@ -79,6 +81,16 @@ affiliations:
   #     - Tell me, pray, what explanation do you put upon their actions?
 
 awards:
+    - title: NUS LifeHack 2023 - First Place + sgID Award
+      date: 2023-06-01
+      issuer: NUS Computing Club
+      url:
+      location: Singapore
+      highlights: 
+        # - "Won first place and sgID Award (bonus) by Open Government Products"
+        - "Developed AquaWise, an AI-powered Sustainable Shopping Companion focused on promoting mindful consumption practices among consumers by integrating with popular e-commerce platforms, such as Shopee."
+
+
   # - title: Champion in the Division A District X Speech Evaluation Contest
   #   date: 2023-05-09
   #   issuer: Toastmasters International
@@ -105,6 +117,11 @@ certificates:
       issuer: Cousera
       url: https://www.coursera.org/account/accomplishments/specialization/certificate/5D46PZTLVV9Q
       id: "5D46PZTLVV9Q"
+    - name: "Google IT Automation with Python"
+      date: 2023-01-09
+      issuer: Coursera
+      url: https://www.coursera.org/account/accomplishments/specialization/certificate/878DAB3LU5FY
+      id: "878DAB3LU5FY"
 
 publications:
 #   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
@@ -124,66 +141,47 @@ projects:
 #       - Generated profit of upwards \$20,000 yearly with a team of only four developers and three business operatives
 
 skills:
-  - category: Soft Skills
-    skills:
-      - Public Speaking
-      - Debating
-      - Communication
-      - Critical Thinking
-      - Leadership
-      - Persuasive Writing
-      - Technical Writing
   - category: Programming
     skills:
       - Python
-      - SQL, PostgreSQL
-      - MATLAB/Octave
-      - HTML
-      - CSS
+      - SQL
       - Javascript
-      - Typst
-      - LaTeX
   - category: Tools
     skills:
-      - Microsoft Word
       - Git
       - Docker
       - Visual Studio Code
-      - Canva
-  - category: Web Development
-    skills:
-      - React
-      - Next.js
-      - million.js
-      - Svelte & Sveltekit
-      - Tailwind CSS
-      - Node.js
-      - Deno
-      - FastAPI
-      - Flask
+  # - category: Web Development
+  #   skills:
+  #     - React
+  #     - Next.js
+  #     - million.js
+  #     - Svelte & Sveltekit
+  #     - Tailwind CSS
+  #     - Node.js
+  #     - Deno
+  #     - FastAPI
+  #     - Flask
   - category: BI & Data Analytics
     skills:
-      - Microsoft Excel
-      - Microsoft Power BI
+      - Tableau
       - Jupyter Notebook
       - Numpy
       - Pandas
       - Plotly
-      - Altair
+      - Statistics
 
 languages:
   - language: English
-    fluency: Native speaker
-  - language: German
-    fluency: Native speaker
-  - language: Japanese
-    fluency: Basic proficiency
+    fluency: Native Speaker
+  - language: Chinese
+    fluency: Native Speaker
 
 interests:
-  - Video Games
-  - Anime
-  - Reading Non-fiction
-  - Classical and Original Soundtrack Music
+  # - Video Games
+  # - Anime
+  # - Reading Non-fiction
+  # - Classical and Original Soundtrack Music
 
 references:
 #   # You can comment out the entries below if you don't have any references
