@@ -95,11 +95,16 @@ awards:
   #     - "Served as the speaker and presented in the 60-second pitch round of the Opening Reception of the SCG Bangkok Business Challenge #sym.at Sasin 2022 for Team London Bridge."
 
 certificates:
-  - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
-    date: 2021-09-01
-    issuer: Coursera
-    url: https://example.com
-    id: "1MPR3CVR3SUM3"
+  # - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
+  #   date: 2021-09-01
+  #   issuer: Coursera
+  #   url: https://example.com
+  #   id: "1MPR3CVR3SUM3"
+    - name: "Google Data Analytics"
+      date: 2023-04-16
+      issuer: Cousera
+      url: https://www.coursera.org/account/accomplishments/specialization/certificate/5D46PZTLVV9Q
+      id: "5D46PZTLVV9Q"
 
 publications:
 #   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow

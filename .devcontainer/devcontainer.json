@@ -1,5 +1,5 @@
 {
 	"name": "Typst Devcontainer",
 	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
-	"postCreateCommand": "cargo install --locked typst-cli"
+	"postCreateCommand": "cargo install --locked typst-cli" // install typst-cli via cargo
 }
