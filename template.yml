@@ -175,26 +175,17 @@ skills:
   - category: Tools
     skills:
       - Git
+      - GitHub
       - Docker
       - Visual Studio Code
-      - Ubuntu
-  # - category: Web Development
-  #   skills:
-  #     - React
-  #     - Next.js
-  #     - million.js
-  #     - Svelte & Sveltekit
-  #     - Tailwind CSS
-  #     - Node.js
-  #     - Deno
-  #     - FastAPI
-  #     - Flask
+      - "Ubuntu/Linux"
   - category: BI & Data Analytics
     skills:
       - Tableau
       - Jupyter Notebook
       - Numpy
       - Pandas
+      - "Matplotlib/Seaborn"
       - Plotly
       - Statistics
   - category: Machine Learning
@@ -202,6 +193,8 @@ skills:
       - Scikit-Learn
       - TensorFlow
       - PyTorch
+      - HuggingFace
+      - MMDetection
 
 languages:
   - language: English
