@@ -33,10 +33,20 @@ work:
 education:
   - institution: National University of Singapore
     url: http://www.nus.sg/
-    area: Bachelor of Science, Business Analytics
+    area: Science, Business Analytics
     studyType: Bachelor
     startDate: 2025-08-01
     endDate: 2029-05-01
+    location: Singapore
+    honors:
+    courses:
+    highlights:
+  - institution: College of Alice and Peter Tan
+    url: http://www.captlife.com/
+    area: NUS
+    studyType: University Town College Programme
+    startDate: 2025-08-01
+    endDate: 2027-05-01
     location: Singapore
     honors:
     courses:
