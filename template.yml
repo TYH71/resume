@@ -18,6 +18,16 @@ personal:
       url: https://github.com/tyh71
 
 work:
+  - organization: SAF Detention Barracks
+    url: https://www.army.gov.sg/our-forces/formations/saf-military-police-command
+    location: Singapore
+    positions: 
+      - position: Detention Military Police
+        startDate: 2024-02-01
+        endDate: 2025-08-01
+        highlights:
+          - Oversaw detainee operations within the Singapore Armed Forces Detention Barracks (SAFDB), ensuring discipline,safety, and well-being of 80+ detainees at any one point
+          - Served as the Unit Safety Advocate, a secondary appointment, promoting and reinforcing safety protocols to ensure asecure operational environment, reducing work process risks by over 90%
   - organization: GovTech Singapore
     url: https://medium.com/dsaid-govtech
     location: Singapore
