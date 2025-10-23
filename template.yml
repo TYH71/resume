@@ -6,7 +6,7 @@ personal:
   phone:
   url:
   titles:
-    - AI Engineer Intern
+    -
   location:
     country: Singapore
   profiles:
@@ -18,16 +18,6 @@ personal:
       url: https://github.com/tyh71
 
 work:
-  - organization: SAF Detention Barracks
-    url: https://www.army.gov.sg/our-forces/formations/saf-military-police-command
-    location: Singapore
-    positions: 
-      - position: Detention Military Police
-        startDate: 2024-02-01
-        endDate: 2025-08-01
-        highlights:
-          - Oversaw detainee operations within the Singapore Armed Forces Detention Barracks (SAFDB), ensuring discipline,safety, and well-being of 80+ detainees at any one point
-          - Served as the Unit Safety Advocate, a secondary appointment, promoting and reinforcing safety protocols to ensure asecure operational environment, reducing work process risks by over 90%
   - organization: GovTech Singapore
     url: https://medium.com/dsaid-govtech
     location: Singapore
@@ -51,6 +41,8 @@ education:
     honors:
     courses:
     highlights:
+      - Specialization in Machine Learning Analytics
+      - Minor in Statistics
   - institution: College of Alice and Peter Tan
     url: http://www.captlife.com/
     area: NUS
@@ -61,6 +53,9 @@ education:
     honors:
     courses:
     highlights:
+      - UTC1409 The Pursuit of Happiness
+      - CAPT Renew Engager
+      - CAPTuring Dreams Volunteer Mentor
   - institution: Singapore Polytechnic
     url: https://www.sp.edu.sg/courses/schools/soc/applied-ai-analytics
     area: Applied AI and Analytics
@@ -69,7 +64,7 @@ education:
     endDate: 2023-05-01
     location: Singapore
     honors:
-      - 3.8 / 4.0 GPA
+      - 3.81 / 4.0 GPA
     courses:
       - Staistics, Python for Data Analyitcs, AI & Machine Learning, Deep Learning
     highlights:
