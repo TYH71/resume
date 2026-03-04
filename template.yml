@@ -18,7 +18,7 @@ personal:
       url: https://github.com/tyh71
 
 work:
-  - organization: SAF Detention Barracks
+  - organization: SAF Detention Barracks, SAF Military Police Command
     url: https://www.mindef.gov.sg/web/portal/mindef/home
     location: Singapore
     positions:
@@ -26,27 +26,27 @@ work:
         startDate: 2024-02-14
         endDate: 2025-08-09
         highlights:
-          - Responsible for detainee management operations, safeguarding detainees discipline, safety, and well-being.
+          - Responsible for detainee management operations, safeguarding detainees' discipline, safety, and well-being.
           - Appointed Unit Safety Advocate (secondary appointment), contributing to the strengthening and improvement of SAFDB safety culture.
-  - organization: GovTech DSAID (Data Science and AI Division), Video Analytics
+  - organization: GovTech DSAID (Data Science and AI Division)
     url: https://medium.com/dsaid-govtech
     location: Singapore
     positions:
-      - position: AI Engineer Intern
+      - position: AI Engineer Intern, Video Analytics Team
         startDate: 2022-04-01
         endDate: 2023-06-30
         highlights:
           - Main engineer for photo relevance study in municipal feedback cases for MSO (Municipal Services Office). Proposed and developed an Image Relevance model using zero-shot image classification and embedding similarity methods. Achieved 97% accuracy without model training.
           - Evaluated the performance of zero-shot visual-language models (CLIP and OWL-ViT) as general-purpose computer vision capabilities, for visual recognition use cases with limited labelled data.
           - Implemented interactive web interfaces and backend APIs for zero-shot object detection, using Gradio, FastAPI, PyTorch, Docker, and HuggingFace transformer SDK.
-          - Comparison study between MMDetection framework and YOLO Darknet framework for pedestrian pathway object detection.
+          - Conducted a comparison study between MMDetection framework and YOLO Darknet framework for pedestrian pathway object detection.
           - Presented multiple knowledge-sharing sessions on open-vocabulary models, visual-language pretraining (VLP) models, and self-supervised learning (SSL).
 
 education:
   - institution: National University of Singapore
-    url: http://www.nus.sg/
-    area: Science (Honours), Business Analytics
-    studyType: Bachelor
+    url: https://www.nus.sg/
+    area: Business Analytics
+    studyType: Bachelor of Science (Honours)
     startDate: 2025-08-01
     endDate: 2028-07-01
     location: Singapore
@@ -57,7 +57,7 @@ education:
       - Minor in Statistics
   - institution: College of Alice and Peter Tan
     url: http://www.captlife.com/
-    area: NUS
+    area:
     studyType: University Town College Programme
     startDate: 2025-08-01
     endDate: 2027-05-01
@@ -66,7 +66,9 @@ education:
     courses:
     highlights:
       - UTC1409 The Pursuit of Happiness
-      - CAPT Renew Engager
+      - "UTW1001T How Rich Should Anyone Be? The Ethics of Wealth Inequality"
+      - CAPT Renew Engager (HEB Ashram Halfway House)
+      - CAPTuring Dreams (=DREAMS (Singapore) Limited)
       - House Committee - Member
   - institution: Singapore Polytechnic
     url: https://www.sp.edu.sg/courses/schools/soc/applied-ai-analytics
@@ -78,7 +80,7 @@ education:
     honors:
       - 3.81 / 4.0 GPA
     courses:
-      - Staistics, Python for Data Analyitcs, AI & Machine Learning, Deep Learning
+      - Statistic, Python for Data Analytics, AI & Machine Learning, Deep Learning
     highlights:
       - "*CCA Grade*: Gold with Honours"
       - "*Distinctions*: ST0503 Back-End Web Development, ST1511 AI and Machine Learning, ST1504 Deep Learning, ST3004 Infocomm Professional Seminar"
@@ -116,6 +118,17 @@ affiliations:
   #     - Tell me, pray, what explanation do you put upon their actions?
 
 awards:
+    - title: NUS Hack4Good 2026 - Second Place
+      date: 2026-01-01
+      issuer: National University of Singapore
+      url:
+      location: Singapore
+      highlights:
+        - "Top 2 out of 57 teams"
+        - "Built Granted, an automated grant discovery engine to help Non-Profit Organisations (NPOs) find and act on funding opportunities from the Singapore Government (OurSG Grants)."
+        - "Built a comprehensive Firebase Cloud Functions serverless backend with 24 production-ready functions covering NPO authentication & management, grant discovery (search, details, saved grants), and RESTful API endpoints with proper CORS and error handling."
+        - "Designed and implemented an AI-powered grant matching system using OpenAI embeddings, enabling automatic matching of nonprofits to relevant grants. Supported both scheduled CRON jobs and real-time updates triggered via HTTP APIs and Firestore changes."
+        - "Automated workflows for critical processes, including data ingestion from the OurSGGrants API, weekly grant match email notifications, and on-demand NPO profile updates with cost-efficient single-inference OpenAI API calls."
     - title: NUS LifeHack 2023 - First Place + sgID Award
       date: 2023-06-01
       issuer: NUS Computing Club
@@ -125,12 +138,12 @@ awards:
         - "Won first place and sgID Award (bonus) by Open Government Products"
         - "Developed AquaWise, an AI-powered Sustainable Shopping Companion focused on promoting mindful consumption practices among consumers by integrating with popular e-commerce platforms, such as Shopee."
     - title: WPH Digital Hackathon 2022 - Second Place Award
-      date: 2023-04-01
+      date: 2022-04-01
       issuer: WPH Digital
       url:
       location: Singapore
       highlights:
-        - developing an innovative solution to streamline CV screening, addressing the inefficiencies in identifying top talent. Collaborated with a team of tech enthusiasts to create a transformative tool that simplifies the hiring process, showcasing problem-solving skills and a commitment to reshaping the future of the job market.
+        - Developed an innovative solution to streamline CV screening, addressing the inefficiencies in identifying top talent. Collaborated with a team of tech enthusiasts to create a transformative tool that simplifies the hiring process, showcasing problem-solving skills and a commitment to reshaping the future of the job market.
 
   # - title: Champion in the Division A District X Speech Evaluation Contest
   #   date: 2023-05-09
@@ -150,7 +163,7 @@ awards:
 certificates:
   - name: "Google Data Analytics"
     date: 2023-04-16
-    issuer: Cousera
+    issuer: Coursera
     url: https://www.coursera.org/account/accomplishments/specialization/certificate/5D46PZTLVV9Q
     id: "5D46PZTLVV9Q"
   - name: "Google IT Automation with Python"
@@ -158,21 +171,6 @@ certificates:
     issuer: Coursera
     url: https://www.coursera.org/account/accomplishments/specialization/certificate/878DAB3LU5FY
     id: "878DAB3LU5FY"
-  - name: NVIDIA - Fundamentals of Deep Learning
-    date: 2022-02-22
-    issuer: NVIDIA
-    url: https://learn.nvidia.com/certificates?id=16ae4f9f8cbd424aae1128c622c701d7
-    id: "l-emxFVgQeCHCjNv8HtyXg"
-  - name: AI FOR INDUSTRY® - Foundations in AI
-    date: 2022-02-14
-    issuer: AI Singapore
-    url: https://certified.aisingapore.org/6ff65f66-87aa-427e-aa79-9c255571863d#acc.8NLE9n7t
-    id: "46333377"
-  - name: "Microsoft Certified: Azure AI Fundamentals"
-    date: 2021-06-21
-    issuer: Microsoft
-    url: https://www.credly.com/badges/9c58eb07-5936-448e-bbe0-2cf45b97d610
-    id: 9c58eb07-5936-448e-bbe0-2cf45b97d610
 
 publications:
 #   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
@@ -181,24 +179,6 @@ publications:
 #     url: https://example.com
 
 projects:
-  - name: "CAPTuring Dreams"
-    url:
-    affiliation: Volunteer Mentor
-    startDate: 2025-10-01
-    endDate: Present
-    highlights:
-      - Mentoring secondary school students from low-income families to achieve their aspirations through guidance and support
-      - Conducting regular mentoring sessions to provide personal development support
-      - Organizing workshops and activities to enhance mentees' skills and confidence
-  - name: "Meals with Wheels"
-    url: https://www.touch.org.sg/
-    affiliation: Volunteer Lead
-    startDate: 2022-08-01
-    endDate: 2022-10-01
-    highlights:
-      - Liaising between Singapore Polytechnic and TOUCH Community Services
-      - Developing and implementing logistical plans for meal delivery routes
-      - Prioritizing the safety of volunteers and elderly recipients, strictly adhering to COVID-19 (Temporary Measures) Regulations 2022
 
 skills:
   - category: Programming
@@ -206,14 +186,22 @@ skills:
       - Python
       - SQL
       - Javascript
+      - Java
       - R
   - category: Tools
     skills:
       - Git
       - GitHub
       - Docker
+      - GCP
       - Visual Studio Code
       - "Ubuntu/Linux"
+  - category: Cloud & Backend
+    skills:
+      - Firebase Cloud Functions
+      - Firestore
+      - RESTful APIs
+      - Serverless Architecture
   - category: BI & Data Analytics
     skills:
       - Tableau
@@ -231,6 +219,7 @@ skills:
       - PyTorch
       - PyTorch Lightning
       - HuggingFace
+      - OpenAI API
       - MMDetection
 
 languages:

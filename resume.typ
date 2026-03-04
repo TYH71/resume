@@ -12,7 +12,7 @@
     sectionspacing: 0pt,
     showAddress:  true, // true/false show address in contact info
     showNumber: false,  // true/false show phone number in contact info
-    showTitle: true,   // true/false show title in heading
+    showTitle: false,   // true/false show title in heading
     headingsmallcaps: false, // true/false use small caps for headings
     sendnote: false, // set to false to have sideways endnote
 )
@@ -44,8 +44,41 @@
     doc
 }
 
-// each section body can be overridden by re-declaring it here
-// #let cveducation = []
+// Override cveducation to handle empty area fields (removes stray "in")
+#let cveducation(info, title: "Education", isbreakable: true) = {
+    if info.education != none {block[
+        == #title
+        #for edu in info.education {
+            let start = utils.strpdate(edu.startDate)
+            let end = utils.strpdate(edu.endDate)
+
+            let edu-items = ""
+            if edu.honors != none {edu-items = edu-items + "- *Honors*: " + edu.honors.join(", ") + "\n"}
+            if edu.courses != none {edu-items = edu-items + "- *Courses*: " + edu.courses.join(", ") + "\n"}
+            if edu.highlights != none {
+                for hi in edu.highlights {
+                    edu-items = edu-items + "- " + hi + "\n"
+                }
+                edu-items = edu-items.trim("\n")
+            }
+
+            block(width: 100%, breakable: isbreakable)[
+                #if edu.url != none [
+                    *#link(edu.url)[#edu.institution]* #h(1fr) *#edu.location* \
+                ] else [
+                    *#edu.institution* #h(1fr) *#edu.location* \
+                ]
+                #if edu.area != none and str(edu.area).trim() != "" [
+                    #text(style: "italic")[#edu.studyType in #edu.area] #h(1fr)
+                ] else [
+                    #text(style: "italic")[#edu.studyType] #h(1fr)
+                ]
+                #utils.daterange(start, end) \
+                #eval(edu-items, mode: "markup")
+            ]
+        }
+    ]}
+}
 
 // ========================================================================== //
 
@@ -55,7 +88,6 @@
 #cvwork(cvdata)
 #cveducation(cvdata)
 #cvaffiliations(cvdata)
-#cvprojects(cvdata)
 #cvawards(cvdata)
 #cvcertificates(cvdata)
 #cvpublications(cvdata)
