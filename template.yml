@@ -18,16 +18,15 @@ personal:
       url: https://github.com/tyh71
 
 work:
-  - organization: SAF Detention Barracks, SAF Military Police Command
-    url: https://www.mindef.gov.sg/web/portal/mindef/home
+  - organization: HTX (Home Team Science and Technology Agency) 
+    url: https://www.htx.gov.sg
     location: Singapore
     positions:
-      - position: Detention Military Police (National Service)
-        startDate: 2024-02-14
-        endDate: 2025-08-09
+      - position: AI Engineer and Project Management Intern
+        startDate: 2026-04-27
+        endDate: 2026-07-24
         highlights:
-          - Responsible for detainee management operations, safeguarding detainees' discipline, safety, and well-being.
-          - Appointed Unit Safety Advocate (secondary appointment), contributing to the strengthening and improvement of SAFDB safety culture.
+          - Corrections and Narcotics Programme Management Centre
   - organization: GovTech DSAID (Data Science and AI Division)
     url: https://medium.com/dsaid-govtech
     location: Singapore
