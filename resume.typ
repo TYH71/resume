@@ -85,11 +85,6 @@
 #show: doc => cvinit(doc)
 
 #cvheading(cvdata, uservars)
-#if cvdata.personal != none and cvdata.personal.elevatorPitchVideo != none and str(cvdata.personal.elevatorPitchVideo).trim() != "" [
-    #align(center)[
-        #text(weight: "semibold")[#link(cvdata.personal.elevatorPitchVideo)[Elevator Pitch Video]]
-    ]
-]
 #cvwork(cvdata)
 #cveducation(cvdata)
 #cvaffiliations(cvdata)
