@@ -22,11 +22,11 @@ work:
     url: https://www.htx.gov.sg
     location: Singapore
     positions:
-      - position: AI Engineer and Project Management Intern
+      - position: AI Engineer and Project Management Intern, CNPMC
         startDate: 2026-04-27
         endDate: 2026-07-24
         highlights:
-          - Corrections and Narcotics Programme Management Centre
+          - Built an agentic AI visual-moderation system for student photo submissions using QwenVL 3.5, zero-shot visual grounding, and policy-aware reasoning to unify UI review and evaluation workflows with bounding-box evidence, recall-focused recovery, and diagnostic reporting.
   - organization: GovTech DSAID (Data Science and AI Division)
     url: https://medium.com/dsaid-govtech
     location: Singapore
@@ -117,6 +117,15 @@ affiliations:
   #     - Tell me, pray, what explanation do you put upon their actions?
 
 awards:
+    - title: "Trace | Ship It Hack'26 2nd Place (powered by Replit)"
+      date: 2026-06-01
+      issuer: Ship It Hacks
+      url: https://github.com/TYH71/Trace
+      location: Singapore
+      highlights:
+        - "Won 2nd place for Trace, an agentic CCTV indexing and search engine that helps security teams upload surveillance footage, automatically index frames, and search for people, vehicles, objects, or events using natural language."
+        - "Built the Replit Agent-provisioned React/Express/PostgreSQL/GCS pipeline with ffmpeg frame extraction and GPT-5-mini vision analysis."
+        - "Returned timestamped frame previews and relevance-ranked results, compressing hours of manual CCTV review into a faster investigative search workflow."
     - title: NUS Hack4Good 2026 - Second Place
       date: 2026-01-01
       issuer: National University of Singapore
@@ -125,9 +134,8 @@ awards:
       highlights:
         - "Top 2 out of 57 teams"
         - "Built Granted, an automated grant discovery engine to help Non-Profit Organisations (NPOs) find and act on funding opportunities from the Singapore Government (OurSG Grants)."
-        - "Built a comprehensive Firebase Cloud Functions serverless backend with 24 production-ready functions covering NPO authentication & management, grant discovery (search, details, saved grants), and RESTful API endpoints with proper CORS and error handling."
-        - "Designed and implemented an AI-powered grant matching system using OpenAI embeddings, enabling automatic matching of nonprofits to relevant grants. Supported both scheduled CRON jobs and real-time updates triggered via HTTP APIs and Firestore changes."
-        - "Automated workflows for critical processes, including data ingestion from the OurSGGrants API, weekly grant match email notifications, and on-demand NPO profile updates with cost-efficient single-inference OpenAI API calls."
+        - "Built a Firebase Cloud Functions backend with 24 production-ready functions for NPO auth, grant discovery, saved grants, profile management, CORS, and error handling."
+        - "Implemented OpenAI-embedding grant matching with scheduled CRON jobs, HTTP APIs, Firestore-triggered updates, weekly match emails, and OurSGGrants ingestion."
     - title: NUS LifeHack 2023 - First Place + sgID Award
       date: 2023-06-01
       issuer: NUS Computing Club
@@ -135,7 +143,7 @@ awards:
       location: Singapore
       highlights: 
         - "Won first place and sgID Award (bonus) by Open Government Products"
-        - "Developed AquaWise, an AI-powered Sustainable Shopping Companion focused on promoting mindful consumption practices among consumers by integrating with popular e-commerce platforms, such as Shopee."
+        - "Developed AquaWise, an AI-powered sustainable shopping companion focused on mindful consumption and integrated with e-commerce platforms such as Shopee."
     - title: WPH Digital Hackathon 2022 - Second Place Award
       date: 2022-04-01
       issuer: WPH Digital

@@ -28,7 +28,7 @@
     // add custom document style rules here
     set page(
         paper: "a4", // a4, us-letter
-        numbering: "1 / 2",
+        numbering: "1 / 1",
         number-align: center, // left, center, right
         margin: 1.25cm, // 1.25cm, 1.87cm, 2.5cm
     )
@@ -93,4 +93,4 @@
 #cvpublications(cvdata)
 #cvskills(cvdata)
 #cvreferences(cvdata)
-#endnote(uservars)
+// #endnote(uservars)
