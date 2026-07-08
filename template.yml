@@ -26,6 +26,7 @@ work:
         startDate: 2026-04-27
         endDate: 2026-07-24
         highlights:
+        - Detention and Custodial Solutions, Correction and Narcotics Programme Management Centre
         - Built Qwen3-VL photo-moderation pipeline for SPS ePhoto Submission on NGINE, a sovereign air-gapped AI infrastructure, using zero-shot visual grounding to flag prohibited content with category labels, bounding-box evidence, reviewer-facing reasoning traces, and evaluation reports.
   - organization: GovTech DSAID (Data Science and AI Division)
     url: https://medium.com/dsaid-govtech
