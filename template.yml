@@ -26,7 +26,7 @@ work:
         startDate: 2026-04-27
         endDate: 2026-07-24
         highlights:
-          - Built an agentic AI visual-moderation system for prison photo submissions using QwenVL 3.5, zero-shot visual grounding, and policy-aware reasoning to unify UI review and evaluation workflows with bounding-box evidence, recall-focused recovery, and diagnostic reporting.
+        - Built Qwen3-VL photo-moderation pipeline for SPS ePhoto Submission on NGINE, a sovereign air-gapped AI infrastructure, using zero-shot visual grounding to flag prohibited content with category labels, bounding-box evidence, reviewer-facing reasoning traces, and evaluation reports.
   - organization: GovTech DSAID (Data Science and AI Division)
     url: https://medium.com/dsaid-govtech
     location: Singapore
